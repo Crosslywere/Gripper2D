@@ -7,7 +7,7 @@ namespace Gripper
 	
 	void Log::Init()
 	{
-		spdlog::set_pattern("%^[%T} %-12ln: %v%$");
+		spdlog::set_pattern("%^[%T} %-12n: %v%$");
 
 		s_CoreLogger = spdlog::stdout_color_mt("Gripper2D");
 		s_CoreLogger->set_level(spdlog::level::trace);
