@@ -12,11 +12,19 @@
     <ClInclude Include="src\Gripper\Core.h">
       <Filter>Gripper</Filter>
     </ClInclude>
+    <ClInclude Include="src\Gripper\EntryPoint.h">
+      <Filter>Gripper</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Gripper\Log.h">
+      <Filter>Gripper</Filter>
+    </ClInclude>
     <ClInclude Include="src\Gripper2D.h" />
-    <ClInclude Include="src\Gripper\EntryPoint.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Gripper\Application.cpp">
+      <Filter>Gripper</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Gripper\Log.cpp">
       <Filter>Gripper</Filter>
     </ClCompile>
   </ItemGroup>
