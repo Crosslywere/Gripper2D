@@ -9,3 +9,5 @@
 #else
 	#error Gripper2D only supported on windows!
 #endif
+
+#define BIT(x) (1 << x)
