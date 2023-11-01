@@ -2,8 +2,6 @@
 
 #include "Event.h"
 
-#include <sstream>
-
 namespace Gripper
 {
 	class GR_API MouseMovedEvent : public Event

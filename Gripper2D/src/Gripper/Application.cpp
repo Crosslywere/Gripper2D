@@ -1,3 +1,4 @@
+#include "grpch.h"
 #include "Application.h"
 #include "Gripper/Log.h"
 #include "Gripper/Events/ApplicationEvent.h"

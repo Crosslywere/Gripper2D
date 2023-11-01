@@ -15,6 +15,9 @@ project "Gripper2D"
     targetdir ("bin/%{prj.name}/%{cfg.buildcfg}")
     objdir ("obj/%{prj.name}/%{cfg.buildcfg}")
 
+    pchheader "grpch.h"
+    pchsource "%{prj.location}/src/grpch.cpp"
+
     files {
         "%{prj.location}/src/**.h",
         "%{prj.location}/src/**.cpp"
