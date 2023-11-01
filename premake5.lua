@@ -21,7 +21,8 @@ project "Gripper2D"
     }
 
     includedirs {
-        "%{prj.location}/vendor/spdlog/include"
+        "%{prj.location}/vendor/spdlog/include",
+        "%{prj.location}/src"
     }
 
     filter "system:windows"

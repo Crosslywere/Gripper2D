@@ -4,6 +4,9 @@
     <Filter Include="Gripper">
       <UniqueIdentifier>{DEEFBD6E-4ACF-3C0A-53E7-C7E0BF45A36B}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Gripper\Events">
+      <UniqueIdentifier>{025667FA-EE23-5B00-D7B7-CB26C3243765}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Gripper\Application.h">
@@ -14,6 +17,18 @@
     </ClInclude>
     <ClInclude Include="src\Gripper\EntryPoint.h">
       <Filter>Gripper</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Gripper\Events\ApplicationEvent.h">
+      <Filter>Gripper\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Gripper\Events\Event.h">
+      <Filter>Gripper\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Gripper\Events\KeyEvent.h">
+      <Filter>Gripper\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Gripper\Events\MouseEvent.h">
+      <Filter>Gripper\Events</Filter>
     </ClInclude>
     <ClInclude Include="src\Gripper\Log.h">
       <Filter>Gripper</Filter>
